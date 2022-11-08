@@ -46,8 +46,7 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-    width: 70%;
-    margin: 20px auto;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,7 +61,9 @@ li {
     font-weight: bolder;
 }
 
-&:hover {
-    color: lightblue;
+a {
+    &:hover {
+        color: rgb(0, 102, 255);
+    }
 }
 </style>
