@@ -3,12 +3,15 @@ import AppHeader from "./components/AppHeader.vue";
 import AppMain from "./components/AppMain.vue";
 import AppBluebar from "./components/AppBluebar.vue";
 import AppFooter from "./components/AppFooter.vue";
+import AppContacts from "./components/AppContacts.vue";
+
 export default {
   components: {
     AppHeader,
     AppMain,
     AppBluebar,
-    AppFooter
+    AppFooter,
+    AppContacts
   }
 }
 
@@ -21,6 +24,7 @@ export default {
   <AppMain />
   <AppBluebar />
   <AppFooter />
+  <AppContacts />
 
 </template>
 
