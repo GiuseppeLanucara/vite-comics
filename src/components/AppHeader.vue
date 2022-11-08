@@ -6,9 +6,63 @@ export default {
         return {
             pages: [
                 {
-                    title: "Home",
-                    href: "/home",
-                    active: false
+                    title: "Characters",
+                    href: "/characters",
+                    active: false,
+                },
+
+                {
+                    title: "Comics",
+                    href: "/comics",
+                    active: false,
+                },
+
+                {
+                    title: "Movies",
+                    href: "/movies",
+                    active: false,
+                },
+
+                {
+                    title: "TV",
+                    href: "/tv",
+                    active: false,
+                },
+
+                {
+                    title: "Games",
+                    href: "/games",
+                    active: false,
+                },
+
+                {
+                    title: "Collectibles",
+                    href: "/collectibles",
+                    active: false,
+                },
+
+                {
+                    title: "Video",
+                    href: "/video",
+                    active: false,
+                },
+
+                {
+                    title: "Fans",
+                    href: "/fans",
+                    active: false,
+                },
+
+                {
+                    title: "News",
+                    href: "/news",
+                    active: false,
+                },
+
+                {
+                    title: "Shop",
+                    href: "/shop",
+                    active: false,
                 }
             ]
         }
@@ -22,36 +76,10 @@ export default {
             <img src="../assets/img/dc-logo.png" alt="">
 
             <ul>
-                <li>
-                    <a href="">COMICS</a>
+                <li v-for="pages in pages" :key="pages">
+                    <a :class="{ 'active': pages.active }" href={{pages.href}}>{{ pages.title }}</a>
                 </li>
-                <li>
-                    <a href="">COMICS</a>
-                </li>
-                <li>
-                    <a href="">COMICS</a>
-                </li>
-                <li>
-                    <a href="">COMICS</a>
-                </li>
-                <li>
-                    <a href="">COMICS</a>
-                </li>
-                <li>
-                    <a href="">COMICS</a>
-                </li>
-                <li>
-                    <a href="">COMICS</a>
-                </li>
-                <li>
-                    <a href="">COMICS</a>
-                </li>
-                <li>
-                    <a href="">COMICS</a>
-                </li>
-                <li>
-                    <a href="">COMICS</a>
-                </li>
+
             </ul>
         </div>
     </div>
@@ -79,7 +107,10 @@ li {
 }
 
 a {
-    &:hover {
+
+    &:hover,
+    &.active {
+
         color: rgb(0, 102, 255);
     }
 }
