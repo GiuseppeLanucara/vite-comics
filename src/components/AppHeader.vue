@@ -61,4 +61,8 @@ li {
     margin: 0 1rem;
     font-weight: bolder;
 }
+
+&:hover {
+    color: lightblue;
+}
 </style>
