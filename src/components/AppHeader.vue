@@ -14,7 +14,7 @@ export default {
                 {
                     title: "Comics",
                     href: "/comics",
-                    active: false,
+                    active: true,
                 },
 
                 {
@@ -107,11 +107,20 @@ li {
 }
 
 a {
+    line-height: 100%;
 
-    &:hover,
+
     &.active {
 
         color: rgb(0, 102, 255);
+        border-bottom: 2px solid blue;
+        line-height: 100%;
     }
+
+    &:hover {
+        color: rgb(0, 102, 255);
+
+    }
+
 }
 </style>

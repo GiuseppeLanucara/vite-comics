@@ -75,7 +75,8 @@ export default {
             justify-content: space-between;
 
             img {
-                max-width: 60px;
+
+                height: 60px;
 
             }
 

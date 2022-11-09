@@ -144,6 +144,10 @@ export default {
                     color: rgba(255, 255, 255, 0.5);
                     padding-top: .5rem;
                     font-weight: lighter;
+
+                    &:hover {
+                        color: antiquewhite;
+                    }
                 }
             }
         }

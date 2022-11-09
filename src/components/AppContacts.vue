@@ -12,16 +12,17 @@ export default {
                 <button><a href="">SIGN-UP NOW!</a></button>
             </div>
             <div class="socials">
-                <h2>FOLLOW US</h2>
-                <img src="../assets/img/footer-facebook.png" alt="">
-                <img src="../assets/img/footer-twitter.png" alt="">
-                <img src="../assets/img/footer-youtube.png" alt="">
-                <img src="../assets/img/footer-pinterest.png" alt="">
-                <img src="../assets/img/footer-periscope.png" alt="">
+                <a href="">
+                    <h2>FOLLOW US</h2>
+                </a>
+                <a href=""> <img src="../assets/img/footer-facebook.png" alt=""></a>
+                <a href=""><img src="../assets/img/footer-twitter.png" alt=""></a>
+                <a href=""><img src="../assets/img/footer-youtube.png" alt=""></a>
+                <a href=""><img src="../assets/img/footer-pinterest.png" alt=""></a>
+                <a href=""><img src="../assets/img/footer-periscope.png" alt=""></a>
             </div>
         </div>
     </div>
-
 </template>
 
 
@@ -54,8 +55,10 @@ export default {
 
                     &:hover {
 
+
                         button {
                             border-color: rgb(0, 132, 255);
+
                         }
 
                         color: rgba(255, 255, 255, 0.795);
