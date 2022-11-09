@@ -133,6 +133,7 @@ export default {
                 color: white;
                 padding-left: 2rem;
                 padding-right: 2rem;
+                font-weight: bold;
 
 
             }
