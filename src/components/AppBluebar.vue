@@ -68,6 +68,13 @@ export default {
         }
 
 
+        li {
+            &:hover {
+                transform: scale(1.2);
+                transition: 2s;
+            }
+        }
+
         a {
             display: flex;
             align-items: center;

@@ -22,6 +22,11 @@ export default {
     margin: 5px;
     margin-top: 3rem;
 
+    &:hover {
+        transform: scale(1.1);
+        transform: 3s;
+    }
+
     h4 {
         color: white;
         margin-top: 1rem;

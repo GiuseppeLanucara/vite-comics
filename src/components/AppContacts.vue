@@ -55,10 +55,8 @@ export default {
 
                     &:hover {
 
-
                         button {
                             border-color: rgb(0, 132, 255);
-
                         }
 
                         color: rgba(255, 255, 255, 0.795);
@@ -80,6 +78,11 @@ export default {
             img {
                 padding-right: 1rem;
                 padding-left: 1rem;
+
+                &:hover {
+                    transform: scale(1.5);
+                    transition: 1s;
+                }
             }
         }
     }

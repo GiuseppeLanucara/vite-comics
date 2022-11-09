@@ -145,8 +145,10 @@ export default {
                     padding-top: .5rem;
                     font-weight: lighter;
 
+
                     &:hover {
                         color: antiquewhite;
+                        transition: 1s;
                     }
                 }
             }

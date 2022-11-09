@@ -129,6 +129,11 @@ export default {
             margin-bottom: 3rem;
             border: none;
 
+            &:hover {
+                transform: scale(1.1);
+                transition: 3s;
+            }
+
             a {
                 color: white;
                 padding-left: 2rem;
