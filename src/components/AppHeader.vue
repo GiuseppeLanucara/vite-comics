@@ -110,17 +110,19 @@ a {
     line-height: 100%;
 
 
+
     &.active {
 
         color: rgb(0, 102, 255);
-        border-bottom: 2px solid blue;
-        line-height: 100%;
+        padding-bottom: 3.8rem;
+        border-bottom: 3px solid rgb(0, 102, 255);
     }
 
     &:hover {
         color: rgb(0, 102, 255);
+        padding-bottom: 3.8rem;
+        border-bottom: 3px solid rgb(0, 102, 255);
 
     }
-
 }
 </style>
