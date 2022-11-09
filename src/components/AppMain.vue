@@ -91,7 +91,12 @@ export default {
 <template>
     <div class="background-container">
         <div class="container">
+
             <SingleSerie v-for="serie in series" :comic="serie" />
+
+            <button>
+                <a href="">LOAD MORE</a>
+            </button>
         </div>
     </div>
 
@@ -115,6 +120,22 @@ export default {
             color: white;
             padding-top: 3rem;
             padding-bottom: 3rem;
+        }
+
+        button {
+            background-color: rgb(0, 81, 255);
+            margin: 0 auto;
+            padding: 1rem;
+            margin-bottom: 3rem;
+            border: none;
+
+            a {
+                color: white;
+                padding-left: 2rem;
+                padding-right: 2rem;
+
+
+            }
         }
     }
 }

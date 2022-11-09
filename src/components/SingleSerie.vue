@@ -20,5 +20,17 @@ export default {
     background-color: rgb(31, 29, 29);
     width: calc(100% / 6 - 10px);
     margin: 5px;
+    margin-top: 3rem;
+
+    h4 {
+        color: white;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    img {
+        height: 200px;
+        width: 200px;
+    }
 }
 </style>
