@@ -1,8 +1,10 @@
 <script>
+import SingleSerie from "./SingleSerie.vue"
+
 export default {
     name: "Main",
     components: {
-
+        SingleSerie,
 
     },
     data() {
@@ -89,7 +91,7 @@ export default {
 <template>
     <div class="background-container">
         <div class="container">
-            <h2> --Content Goes Here-- </h2>
+            <SingleSerie v-for="comic in comics" :comic="comic">
         </div>
     </div>
 
