@@ -9,7 +9,7 @@ export default {
 
 <template>
     <div class="card">
-        <img :src="comic.thumbs" alt="">
+        <img :src="comic.thumb" alt="">
         <h4>{{ comic.series }}</h4>
     </div>
 

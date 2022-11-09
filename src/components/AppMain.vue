@@ -91,7 +91,7 @@ export default {
 <template>
     <div class="background-container">
         <div class="container">
-            <SingleSerie v-for="comic in comics" :comic="comic">
+            <SingleSerie v-for="serie in series" :comic="serie" />
         </div>
     </div>
 
@@ -109,6 +109,7 @@ export default {
         display: flex;
         align-items: center;
         justify-content: flex-start;
+        flex-wrap: wrap;
 
         h2 {
             color: white;
